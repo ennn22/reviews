@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./style.css" rel="stylesheet">
+  <title>Reviews</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="header">
+      <button class="back-btn">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="#FFFEFE" class="w-6 h-6">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
+        </svg>
+      </button>
+      <h2>reviews</h2>
+      <button class="add-btn">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="#FFFEFE" class="w-6 h-6">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M12 9v6m3-3H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+        </svg>
+      </button>
+    </div>
+
+    <div class="rating-wrapper">
+      <div class="avg-rating-wrapper">
+        <div class="star-img-wrapper">
+          <img id="star" class="star-img" src="./resources/star.png"> 
+          <h4 class="avg-rating-number">4.5</h4>
+        </div>
+        <div class="avg-rating-text">
+          <h4>Average Rating</h4>
+          <p>Based on 23.98 ratings</p>
+        </div>
+      </div>
+
+      <div class="detail-rating">
+        <div class="rating">
+          <p>5 star</p>
+          <div class="rating-bar"><div class="rating-bar-progress" width="20%"></div></div>
+          <p>14,764</p>
+        </div>
+        <div class="rating">
+          <p>4 star</p>
+          <div class="rating-bar"><div class="rating-bar-progress" width="50%" ></div></div>
+          <p>9480</p>
+        </div>
+        <div class="rating">
+          <p>3 star</p>
+          <div class="rating-bar"><div class="rating-bar-progress" width="70%"></div></div>
+          <p>1240</p>
+        </div>
+        <div class="rating">
+          <p>2 star</p>
+          <div class="rating-bar"><div class="rating-bar-progress" width="20%"></div></div>
+          <p>340</p>
+        </div>
+        <div class="rating">
+          <p>1 star</p>
+          <div class="rating-bar"><div class="rating-bar-progress" width="50%"></div></div>
+          <p>170</p>
+        </div>
+        
+      </div>
+    </div>
+
+    <div class="sample-review">
+      <div class="sample">
+        <img class="user-photo" src="./resources/woman1.jpeg">
+        <div class="review-details">
+          <h3>Angelina</h3>
+          <meter class="rating1" min="0" max="5" value="3.5"></meter>
+          <p>I stumbled upon Riverside Cafe & Bakery during a weekend getaway, and I must say, it was a delightful experience!</p>
+        </div>
+      </div>
+      <div class="sample">
+        <img class="user-photo" src="./resources/mario.jpeg">
+        <div class="review-details">
+          <h3>Britney</h3>
+          <meter class="rating2" min="0" max="5" value="4"></meter>
+          <p>I ordered their signature cappuccino and a slice of their famous blueberry cheesecake. The cappuccino was expertly crafted, with a perfect balance of rich espresso and velvety milk foam.</p>
+        </div>
+      </div>
+      <div class="sample">
+        <img class="user-photo" src="./resources/sample3.webp">
+        <div class="review-details">
+          <h3>Brad Pitt</h3>
+          <meter class="rating3" min="0" max="5" value="5"></meter>
+          <p>ac neque quam.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+</html>
